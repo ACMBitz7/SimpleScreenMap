@@ -1,6 +1,10 @@
 # SimpleScreenMap
 A python module that makes working with multiple displays or compatibility with other displays easier.
 
+
+Only works for windows
+
+
 This module is just to save time writing multiple functions or code. Here's what you can do with it:
 
 getDisplays()

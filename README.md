@@ -19,7 +19,7 @@ This module is just to save time writing multiple functions or code. Here's what
   
     [Display(name='\\.\DISPLAY1', width=2560, height=1440, originX=0, originY=0, primary=True), Display(name='\\.\DISPLAY2', width=2560, height=1440, originX=2560, originY=0, primary=False)]
  
-  -can assign a variable to it using a for loop or PrimaryMonitor = `getDisplays()[0]`
+  -can assign a variable to it using a for loop or `PrimaryMonitor = getDisplays()[0]`
   
   -Properties:
     
@@ -28,7 +28,7 @@ This module is just to save time writing multiple functions or code. Here's what
 
 `screenPosition(x, y, display, bordered, relative)`
   
-  Example: Display size is 1920, 1080. screenPosition(0.5, 1, 0) returns 960, 1080.
+  Example: Display size is 1920, 1080. `screenPosition(0.5, 1, 0)` returns 960, 1080.
   
   -x, y: any value between 0, 0 and 1, 1 that determines the output. 1, 1 would be 100 percent of the display, which is the bottom right corner.
   

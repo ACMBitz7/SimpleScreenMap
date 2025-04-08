@@ -19,7 +19,7 @@ getDisplays()
   
   -Properties:
     
-    Monitor.name, Monitor.width, Monitor.height, Monitor.originX, Monitor.originy, Monitor.primary
+    Monitor.name, Monitor.width, Monitor.height, Monitor.originX, Monitor.originY, Monitor.primary
 
 
 screenPosition(x, y, display, bordered, relative)
